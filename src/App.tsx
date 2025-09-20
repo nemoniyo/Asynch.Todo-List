@@ -1,7 +1,7 @@
 import { Table, TableBody, TableCaption, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addTodo, deleteTodo, editTodo, fetchTodos, toggleStatus, fetchTodoById } from "./reducers/todoSlice";
+import { addTodo, deleteTodo, editTodo, fetchTodos, toggleStatus, fetchTodoById } from "./reducers/todoslice";
 import { CircleCheck, Edit, Info, Trash } from "lucide-react";
 import { Drawer, Carousel, Tooltip } from "antd"
 import { Field, Form, Formik } from "formik";
